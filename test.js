@@ -58,7 +58,7 @@ function makeChart(){
       });    
     
       barchart.update();
-      console.log(valueY);
+      //console.log(valueY);
 
 
       //barchart.data.labels.push(t);
@@ -95,8 +95,8 @@ function changechartType(){
   }
 
   a++
-  console.log(typeofChart);
-  console.log(a);
+  //console.log(typeofChart);
+  //console.log(a);
 }
 
 var callagain = setInterval(addDataTest,1000)
